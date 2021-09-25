@@ -21,6 +21,3 @@ class CheckOnHands(BankData, PayMethod):
         rep = PayMethod(self.name, self.value, self.date).__repr__()
         return "%r %s" %(rep, self.__class__.__name__)
 
-# d = CheckOnHands(123, "10-1-2021", "001", "2030-1", "129239-1")
-# print(d.set_checkNum("123123"))
-# print(d.get_checkNum())

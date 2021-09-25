@@ -20,6 +20,3 @@ class AccountCredit(PayMethod, BankData):
     def __repr__(self):
         rep = PayMethod(self.name, self.value, self.date).__repr__()
         return "%r, %s" %(rep, self.__class__.__name__)
-
-# a = AccountCredit(2031.2, "2021-02-01", "001", "32021-01", "2320-1", "João")
-# print(a)
