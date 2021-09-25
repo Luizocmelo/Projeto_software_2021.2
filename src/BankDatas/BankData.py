@@ -21,6 +21,3 @@ class BankData:
 
     def __repr__(self):
         return "bankID: %s, agency: %s, account: %s" %(self.bankID, self.agency, self.account)
-
-# bank = BankData("001", "123210", "1922")
-# print(bank)
