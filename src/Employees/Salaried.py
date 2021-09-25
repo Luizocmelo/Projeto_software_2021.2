@@ -10,7 +10,3 @@ class Salaried(Employee):
         return self.wage
     def set_wage(self, value):
         self.wage = value
-
-
-# e = Salaried("João Levi", "00231023", "19231293", 6559, False)
-# print(e)
