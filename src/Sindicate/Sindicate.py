@@ -1,7 +1,7 @@
 class Sindicate:
     def __init__(self, taxPerMonth):
         self.__taxPerMonth = taxPerMonth
-        self.__serviceTax = {'Medical':32.45,'Lawyer':45.34, 'indemnity':25.16}
+        self.__serviceTax = {'Medical':32.45,'Lawyer':45.34,'indemnity':25.16}
     
     def get_taxPerMonth(self):
         return self.__taxPerMonth
